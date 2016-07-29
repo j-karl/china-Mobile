@@ -483,11 +483,11 @@ window.onload = function(){
 				flag1 = false;
 				moveeR();
 			}
-	
+
 		}
 		gundong.style.width = img.lenght * widthss+"px";
 		function moveeL(){
-			
+
 			animate(gundong,{left:-num*widthss},function(){
 				for(var i = 0;i<num;i++){
 					var first = this.getChild()[0];
@@ -498,7 +498,7 @@ window.onload = function(){
 			});
 
 		}
-	
+
 		function moveeR(){
 			var last = gundong.lastChild1();
 			// console.log(last);
