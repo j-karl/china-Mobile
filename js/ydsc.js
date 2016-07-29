@@ -435,9 +435,7 @@ window.onload = function(){
 		img[i].onmouseout = function(){
 			animate(img[this.index],{right:0},Tween.Linear);
 		}
-	}	
-	
-	
+	}
 
 	//设置imgBox的宽度
 	//传入的个数不同，长度就不同
@@ -451,7 +449,6 @@ window.onload = function(){
 	*/
 	var roll = $(".roll")[0];
 	Nodelunbo(roll,1);
-	
 	function Nodelunbo(obj,num){
 
 		var tt = setInterval(moveeL,1500);
